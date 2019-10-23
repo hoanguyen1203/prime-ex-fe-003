@@ -1,8 +1,8 @@
 # Project - Typing speed tester
-Typing speed tester using ES6
+- Typing speed tester using ES6
 
-Submitted by: Hoa Nguyen
-Time spent: 3 Hours
+- Submitted by: Hoa Nguyen
+- Time spent: 3 Hours
 
 ## Usage
 ### Step 1 : Install and Update script using wget
@@ -23,16 +23,16 @@ Time spent: 3 Hours
 `npm install -D babel-cli`
 
 ### Step 6 : Install env preset and create .babelrc file
-`npm install -D babel-preset-env`
-Create your `.babelrc` file:
-`touch .babelrc`
-And write the following:
-`{"presets": ["env"]}`
+- `npm install -D babel-preset-env`
+- Create your `.babelrc` file:
+    - `touch .babelrc`
+- And write the following:
+    - `{"presets": ["env"]}`
 
 ### Step 7 : Change package.json
-Open folder package.json add under line "test":
-`"build": "babel src -d build",`
-`"start": "serve"`
+- Open folder package.json add under line "test":
+    - `"build": "babel src -d build",`
+    - `"start": "serve"`
 
 ### Step 4 : Run the Babel command
 `npm run build`
@@ -48,7 +48,7 @@ Open folder package.json add under line "test":
 
 ## Preview how it work
 
-![Typing speed tester!](https://github.com/hoanguyen1203/prime-ex-fe-002/blob/master/typing-speed-tester.gif)
+![Typing speed tester!](https://github.com/hoanguyen1203/prime-ex-fe-003/blob/master/typing-speed-tester.gif)
 
 
 # License
