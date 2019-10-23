@@ -59,7 +59,7 @@ var SpeedTest = function () {
             }
             this.hundredths++;
 
-            this.theTimer.innerHTML = this.addLeadingZero("" + this.minute) + ":" + this.addLeadingZero("" + this.second) + ":" + this.addLeadingZero("" + this.hundredths);
+            this.theTimer.innerHTML = this.addLeadingZero(this.minute) + ":" + this.addLeadingZero(this.second) + ":" + this.addLeadingZero(this.hundredths);
         }
     }, {
         key: "reset",
@@ -68,7 +68,7 @@ var SpeedTest = function () {
             this.second = 0;
             this.hundredths = 0;
 
-            this.theTimer.innerHTML = this.addLeadingZero("" + this.minute) + ":" + this.addLeadingZero("" + this.second) + ":" + this.addLeadingZero("" + this.hundredths);
+            this.theTimer.innerHTML = this.addLeadingZero(this.minute) + ":" + this.addLeadingZero(this.second) + ":" + this.addLeadingZero(this.hundredths);
 
             clearInterval(this.startTime);
             this.startTime = null;

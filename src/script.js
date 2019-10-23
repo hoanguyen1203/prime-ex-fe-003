@@ -44,14 +44,14 @@ class SpeedTest {
         }
         this.hundredths++
         
-        this.theTimer.innerHTML = this.addLeadingZero(`${this.minute}`) + ":" + this.addLeadingZero(`${this.second}`) + ":" + this.addLeadingZero(`${this.hundredths}`)
+        this.theTimer.innerHTML = `${this.addLeadingZero(this.minute)}:${this.addLeadingZero(this.second)}:${this.addLeadingZero(this.hundredths)}`
     }
     reset() {
         this.minute = 0
         this.second = 0
         this.hundredths = 0
 
-        this.theTimer.innerHTML = this.addLeadingZero(`${this.minute}`) + ":" + this.addLeadingZero(`${this.second}`) + ":" + this.addLeadingZero(`${this.hundredths}`)
+        this.theTimer.innerHTML = `${this.addLeadingZero(this.minute)}:${this.addLeadingZero(this.second)}:${this.addLeadingZero(this.hundredths)}`
     
         clearInterval(this.startTime)
         this.startTime = null
